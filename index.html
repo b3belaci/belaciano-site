@@ -2,53 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#102f2b">
-  <meta name="description" content="Belaciano — a small corner of the web for family, ideas and everything in between.">
-  <meta property="og:title" content="Belaciano — Our corner of the web">
-  <meta property="og:description" content="A simple home for the Belaciano name: family, ideas, and good things to come.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#13382f">
+  <meta name="description" content="Belaciano — one family, seven stories, and room for what comes next.">
+  <meta property="og:title" content="Belaciano — Room for everyone">
+  <meta property="og:description" content="One family, many possibilities. A welcoming home for our family spaces, projects, and future ventures.">
   <meta property="og:type" content="website">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="styles.css">
-  <title>Belaciano — Our corner of the web</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Belaciano | One family. Room for everyone.</title>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a href="#top" class="brand" aria-label="Belaciano home"><span class="brand-mark" aria-hidden="true">B<span>.</span></span><span>BELACIANO</span></a>
-    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#what-next">What's next</a></nav>
-  </header>
-  <main id="main">
-    <section class="hero wrap" id="top" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="eyebrow-line"></span> Hello, world.</div>
-        <h1 id="hero-title">A little corner<br>of the <em>internet.</em></h1>
-        <p class="lead">Welcome to <strong>Belaciano.com</strong> — a home for the Belaciano name. A space for family, ideas, and whatever we decide to build next.</p>
-        <a href="#about" class="button">Come on in <span aria-hidden="true">↗</span></a>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+  <div class="shell nav-wrap">
+    <a class="brand" href="./" aria-label="Belaciano homepage"><img src="./assets/brand-mark.svg" width="44" height="46" alt=""><span>BELACIANO</span></a>
+    <nav aria-label="Main navigation"><a href="#story">Our home</a><a href="./people/">Our spaces</a><a href="#future">What's next</a><a class="nav-pill" href="./business/">Business space <span aria-hidden="true">↗</span></a></nav>
+  </div>
+</header>
+<main id="content">
+  <section class="hero shell" aria-labelledby="hero-heading">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="eyebrow-line"></span>A HOME FOR TODAY &amp; TOMORROW</div>
+      <h1 id="hero-heading">One family.<br><em>Room for</em><br>everyone.</h1>
+      <p class="lede">Welcome to Belaciano. One shared home on the web, with space for each of us to create something of our own as life unfolds.</p>
+      <div class="button-row"><a class="button button-primary" href="./people/">Explore our spaces <span aria-hidden="true">↗</span></a><a class="button button-text" href="#story">How it works <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-note"><span class="tiny-star" aria-hidden="true">✦</span> A little place on the internet. A lot of room to grow.</div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-paper" aria-label="Illustration of a family tree with seven future spaces" role="img">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="visual-center"><img src="./assets/brand-mark.svg" alt="" width="138" height="142"></div>
+        <span class="visual-label">BELACIANO</span>
+        <div class="branch-stem"></div>
+        <div class="branch-grid" aria-hidden="true">
+          <span class="branch-dot dot-adult">01</span><span class="branch-dot dot-adult">02</span><span class="branch-dot">03</span><span class="branch-dot">04</span><span class="branch-dot">05</span><span class="branch-dot">06</span><span class="branch-dot">07</span>
+        </div>
+        <div class="visual-caption">Many paths. One place to call home.</div>
       </div>
-      <div class="hero-art" role="img" aria-label="Decorative overlapping circles and the letter B">
-        <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div><div class="art-circle"></div>
-        <span class="art-letter" aria-hidden="true">B</span>
-        <span class="art-caption">EST. ONLINE · 2026</span>
+      <div class="floating-tag">EST. ONLINE <b>2026</b></div>
+    </div>
+  </section>
+  <div class="story-band" id="story">
+    <div class="shell story-grid">
+      <div><div class="section-label label-light">THE IDEA</div><h2>Roots that connect.<br><em>Branches that grow.</em></h2></div>
+      <div class="story-copy"><p>Our shared name is where it starts. From here, every family member can have a corner for interests, projects, writing, or whatever comes next.</p><p>Some things are for the world to see. The important family moments and documents belong somewhere private. We make room for both.</p></div>
+    </div>
+  </div>
+  <section class="shell space-section" id="spaces" aria-labelledby="spaces-heading">
+    <div class="section-label">ONE HOME · SEVEN POSSIBILITIES</div>
+    <div class="section-header"><h2 id="spaces-heading">A space for <em>each of us.</em></h2><p>Ready today, adaptable tomorrow. Personal pages can begin small and grow into independent websites when the time is right.</p></div>
+    <div class="spaces-preview">
+      <a class="preview-card featured" href="./people/parent-1/"><span class="preview-index">01 / 07</span><span class="preview-graphic">✧</span><span class="preview-name">First parent’s space</span><span class="preview-desc">Ideas, writing, projects and more.</span><span class="preview-arrow" aria-hidden="true">↗</span></a>
+      <a class="preview-card featured second" href="./people/parent-2/"><span class="preview-index">02 / 07</span><span class="preview-graphic">✻</span><span class="preview-name">Second parent’s space</span><span class="preview-desc">A place to create something personal.</span><span class="preview-arrow" aria-hidden="true">↗</span></a>
+      <a class="preview-card kids" href="./people/"><span class="preview-index">03—07 / 07</span><div class="five-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><span class="preview-name">Five future spaces</span><span class="preview-desc">Reserved for the next generation. Shared publicly only when they're ready.</span><span class="preview-arrow" aria-hidden="true">↗</span></a>
+    </div>
+    <div class="section-footer"><span>Individual pages are placeholders until their owners choose what to share.</span><a class="text-link" href="./people/">Browse all seven spaces <span aria-hidden="true">↗</span></a></div>
+  </section>
+  <section class="future-section" id="future">
+    <div class="shell future-grid">
+      <div><div class="section-label">LOOKING AHEAD</div><h2>Built for <em>every chapter.</em></h2><p class="section-intro">Not every idea needs its own website on day one. But when it does, the Belaciano domain can give it a real home.</p></div>
+      <div class="future-list">
+        <a href="./business/" class="future-item"><span class="future-icon" aria-hidden="true">✦</span><span><strong>An independent business</strong><small>A dedicated identity, services, and contact experience — without mixing it into family pages.</small></span><span class="future-arrow" aria-hidden="true">↗</span></a>
+        <a href="./people/" class="future-item"><span class="future-icon" aria-hidden="true">⌘</span><span><strong>Personal projects and portfolios</strong><small>Writing, creative work, technical projects, or a future professional profile.</small></span><span class="future-arrow" aria-hidden="true">↗</span></a>
+        <div class="future-item informational"><span class="future-icon" aria-hidden="true">◇</span><span><strong>A separate private family hub</strong><small>Calendars, memories and documents shared securely through our family accounts — not published here.</small></span><span class="future-arrow" aria-hidden="true">⌁</span></div>
       </div>
-    </section>
-    <section class="about-section" id="about" aria-labelledby="about-title">
-      <div class="wrap about-grid">
-        <div><p class="section-kicker">01 / ABOUT THIS SPACE</p><h2 id="about-title">Simple by<br><em>design.</em></h2></div>
-        <div class="about-copy"><p>Not every website needs to be complicated. This one is a place to start — a clean front door for our domain and room to grow over time.</p><p>We'll add more when there's something worth sharing. Until then, welcome.</p></div>
-      </div>
-    </section>
-    <section class="next-section wrap" id="what-next" aria-labelledby="next-title">
-      <p class="section-kicker">02 / WHAT'S NEXT</p>
-      <div class="next-heading"><h2 id="next-title">Room to <em>grow.</em></h2><p>The best things are built a little at a time.</p></div>
-      <div class="tile-grid">
-        <article class="tile"><span class="tile-number">01</span><span class="tile-icon" aria-hidden="true">✳</span><h3>Family</h3><p>Shared stories, celebrations, and good memories — when we choose to make them public.</p></article>
-        <article class="tile"><span class="tile-number">02</span><span class="tile-icon" aria-hidden="true">⌘</span><h3>Projects</h3><p>A home for interesting ideas, things we're learning, and things we're building.</p></article>
-        <article class="tile"><span class="tile-number">03</span><span class="tile-icon" aria-hidden="true">↗</span><h3>Connections</h3><p>A simple starting point for the online spaces that matter to us.</p></article>
-      </div>
-    </section>
-  </main>
-  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand brand-footer" href="#top"><span class="brand-mark" aria-hidden="true">B<span>.</span></span><span>BELACIANO</span></a><span>Made with care. No cookies, no tracking, no fuss.</span><span>© <span id="year">2026</span> Belaciano</span></div></footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    </div>
+  </section>
+  <section class="shell principles-section"><div class="section-label">HOW WE'RE BUILDING</div><h2>Simple now.<br><em>Ready for later.</em></h2><div class="principles-grid"><div><span class="principle-num">01</span><h3>One welcoming front door</h3><p>Everything important is easy to find from the Belaciano homepage.</p></div><div><span class="principle-num">02</span><h3>Independence when it matters</h3><p>Members and future ventures can grow into their own subdomains.</p></div><div><span class="principle-num">03</span><h3>Privacy from the beginning</h3><p>No personal details about children or private family documents on the public site.</p></div></div></section>
+  <section class="closing-section"><div class="shell closing-inner"><img src="./assets/brand-mark.svg" width="78" height="82" alt=""><h2>Here’s to everything <em>ahead.</em></h2><p>A family name, a growing collection of stories, and space to make our own.</p><a class="button button-light" href="./people/">Explore the family spaces <span aria-hidden="true">↗</span></a></div></section>
+</main>
+<footer class="site-footer"><div class="shell footer-content"><a class="brand footer-brand" href="./"><img src="./assets/brand-mark.svg" alt="" width="35" height="38"><span>BELACIANO</span></a><span>Family first. Room to grow.</span><span>© <span id="year">2026</span> Belaciano</span></div></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear()</script>
 </body>
 </html>
